@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: aqua;
+    padding: 10px;
+    position: relative;
+}
+
+#phone {
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.icon {
+    font-size: 10px;
+    transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, z-index 0.3s ease;
+
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    /* Aligns items to the right */
+
+
+}
+
+.social-media-icons a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-media-icons a:hover {
+    color: #007bff;
+    /* Change color on hover */
+    transform: scale(1.2);
+    /* Scale up the icon */
+    box-shadow: 0 0 10px rgba(30, 30, 30, 0.5);
+    /* Add shadow on hover */
+
+    transform: rotate(180deg);
+
+}
+
+.list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 0;
+}
+
+li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: transform 0.5s ease, background-color 0.5s ease, box-shadow 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgb(0, 183, 255);
+    /* Change background color on hover */
+    transform: scale(1.05);
+    /* Slightly scale up the item on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    /* Add shadow to create a sense of depth */
+}
+
+/* Styles for the first grid container */
+.content1 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.column1 {
+    background-color: rgb(212, 254, 253);
+    padding: 20px 50px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.column1:hover {
+    transform: scale(1.05);
+    /* Slightly scale up the column on hover */
+    box-shadow: 0 0 10px rgba(53, 53, 53, 0.5);
+    /* Add shadow on hover */
+}
+
+/* Styles for the second grid container */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.column {
+    background-color: rgb(212, 254, 253);
+    padding: 50px;
+    border-style: dotted;
+    border-color: rgb(0, 255, 242);
+    margin: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.column:hover {
+    transform: scale(1.05);
+    /* Slightly scale up the column on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Add shadow on hover */
+}
+
+
+.profile-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Increased margin to ensure space for the image */
+}
+
+.profile-image {
+    position: absolute;
+    left: 250px;
+    /* Adjust the horizontal position as needed */
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0.3s ease;
+    z-index: 1;
+    /* Ensure it is initially below other content */
+}
+
+.profile-image:hover {
+    transform: translateX(-50%) scale(1.1);
+    /* Scale up the image on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    /* Enhance shadow on hover */
+    z-index: 10;
+    /* Bring the image to the front */
+}
+
+
+.name {
+    padding: 0;
+
+    margin-top: 10px;
+    /* Space above the element */
+
+    font-size: 17px;
+    /* Adjust font size if needed */
+    color: #333;
+    /* Dark color for better readability */
+    position: relative;
+    /* Allows for positioning if needed */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+
+
+.discription {
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 17px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: rgb(0, 247, 255);
+    padding: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.discription:hover {
+    background-color: rgb(240, 240, 240);
+    /* Change background color on hover */
+    box-shadow: 0 0 10px rgba(132, 132, 132, 0.3);
+    /* Add shadow on hover */
+}
+
+
+#cv {
+    right: 50px;
+}
+
+#fname {
+    font-size: 30px;
+
+    padding: none;
+
+}
+
+
+
+.footer {
+    background-color: aqua;
+    padding: 30px;
+}

@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1:hover {
+    color: rgb(1, 98, 107);
+}
+
+
+.container {
+    display: flex;
+
+    /* Distribute space between the two columns */
+
+    /* Add padding to prevent the content from touching the edges */
+}
+
+.column {
+
+    /* Make both columns take up equal space */
+    margin-right: 0 20px;
+    /* Add some space between the two columns */
+    padding: 20px;
+
+
+}
+
+.col1 {
+    border-radius: 30px;
+
+
+}
+
+.col2 {
+    border-radius: 30px;
+
+
+}
+
+.column :hover {
+    background-color: rgb(60, 60, 60);
+}
+
+p {
+    margin: 5px 0;
+    /* Space between each <p> element */
+    padding: 10px;
+    color: rgb(149, 149, 149);
+
+}
+
+p:hover {
+    color: rgb(255, 255, 255);
+}
+
+.para {
+    border-style: inset;
+    background-color: rgb(0, 125, 102);
+    color: white;
+}
+
+#moreBtn {
+    background-color: greenyellow;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    /* Change cursor to pointer to indicate it's clickable */
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
+    /* Smooth transition for color and movement */
+}
+
+#moreBtn:hover {
+    background-color: rgb(98, 255, 0);
+    color: rgb(0, 0, 0);
+    transform: translateY(-5px);
+    /* Slight upward movement */
+    box-shadow: 0 0 10px 5px rgb(67, 67, 67);
+    /* Add shadow to make it stand out */
+}
+
+
+b {
+    color: rgb(0, 255, 255);
+    font-size: 20px;
+}
+
+b:hover {
+    color: rgb(0, 81, 89);
+}
+
+
+
+.short-lines {
+    border-style: groove;
+    width: 450px;
+    font-size: 18px;
+    color: white;
+
+
+}
+
+.short-lines:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 10px 5px rgb(67, 67, 67);
+}
