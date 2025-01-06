@@ -22,3 +22,4 @@ This project is a **personal portfolio website** for showcasing Robel Yisehak's 
 1. **HTML5**: For structuring the content.
 2. **CSS3**: For styling and layout.
 3. **Font Awesome**: For adding social media icons.
+4. **Java Script**: For  dynamic, interactive, and responsive elements.
